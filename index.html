@@ -82,7 +82,7 @@
     <h1>Image Upload</h1>
 
     <form method="POST" enctype="multipart/form-data" action="http://172.16.204.22:3000/upload" onsubmit="showLoading()">
-        <input type="file" id="image" name="img">
+        <input type="file" id="image" accept ="image/*" capture="camera" name="img">
         <button id="upload" type="submit">Upload</button>
     </form>
 
